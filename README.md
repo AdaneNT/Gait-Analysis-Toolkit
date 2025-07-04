@@ -19,3 +19,9 @@ Currently, the GA image can be accessed and tested from Docker hub by typing the
 
 •	Step 3: type localhost:8088/apidocs ( on a browser)
 
+---
+
+### Update Log
+
+- Minor formatting improvements and addition of an update log.
+- Initial version of README created for demonstration of pull request workflow.
