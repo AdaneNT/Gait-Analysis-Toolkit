@@ -1,7 +1,17 @@
 # Gait-Analysis-
-Gait analysis (GA) toolkit is a machine learning-based human activity recogntion developed for detecting common activities of daily living (ADLs), 
-such as walking, jogging, going upstairs, going downstairs, sitting, and standing. The GA toolkit contains a pre-trained model based on the smartphone 
-acceleration dataset obtained from wearable inertial sensors.
+
+Gait analysis (GA) toolkit is a machine learning-based human activity recognition developed for detecting common activities of daily living (ADLs), such as walking, jogging, going upstairs, going downstairs, sitting, and standing. The GA toolkit contains a pre-trained model based on the smartphone acceleration dataset obtained from wearable inertial sensors.
+
+## Installation Instructions
+
+The GA toolkit has been packaged in a dockerized container.
+
+The toolkit’s image can be tested and run on a local machine and can be accessed by running the following commands:
+
+Run GA component:
+```bash
+docker run -d -p 8082:8080 gait_module
+
 
 Installation Instructions
 
