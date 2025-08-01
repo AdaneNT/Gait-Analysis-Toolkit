@@ -23,6 +23,17 @@ This project demonstrates the real-world deployment of an ML model via a RESTful
 - **Inertial Sensor Dataset** (Smartphone-based)
 
 ---
+## Project Structure
+```text
+.
+├── classifier_rf.pkl         # Pre-trained Random Forest classifier
+├── gait_api.py               # Flask server with REST endpoints
+├── requirements.txt          # Dependencies
+├── Dockerfile                # Docker image setup
+├── X_test_raw.txt            # Example test input
+├── README.md                 # Project documentation
+└── google*.html              # Domain verification (if applicable)
+```
 
 ## Installation Instructions
 The GA toolkit has been packaged in a Dockerized container. The toolkit’s image can be tested and run on a local machine:
@@ -53,17 +64,6 @@ docker run -p 8082:8080 gait_module
 ## Access Swagger UI
 http://localhost:8082/apidocs
 
-## Project Structure
-```text
-.
-├── classifier_rf.pkl         # Pre-trained Random Forest classifier
-├── gait_api.py               # Flask server with REST endpoints
-├── requirements.txt          # Dependencies
-├── Dockerfile                # Docker image setup
-├── X_test_raw.txt            # Example test input
-├── README.md                 # Project documentation
-└── google*.html              # Domain verification (if applicable)
-```
 ## Demo
 Visit the live Swagger UI on your local host:
 http://localhost:8088/apidocs
