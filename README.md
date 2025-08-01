@@ -40,16 +40,16 @@ http://localhost:8088/apidocs
 ```
 ## Option 2: Build and Run Locally
 ## Clone the repository
-git clone https://github.com/adanent/Gait-Analysis-Toolkit-.git
+git clone [https://github.com/adanent/Gait-Analysis-Toolkit](https://github.com/AdaneNT/Gait-Analysis-Toolkit)-.git
 cd Gait-Analysis-Toolkit-
 
-# Build Docker image
+## Build Docker image
 docker build -t gait_module .
 
-# Run container
+## Run container
 docker run -p 8082:8080 gait_module
 
-# Access Swagger UI
+## Access Swagger UI
 http://localhost:8082/apidocs
 
 ## Project Structure
