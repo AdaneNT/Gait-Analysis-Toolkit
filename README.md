@@ -60,7 +60,7 @@ docker build -t gait_module .
 docker run -p 8082:8080 gait_module
 
 ## Demo
-Visit the live Swagger UI on your local host:
+Visit the Swagger UI on your local host:
 http://localhost:8088/apidocs
 
 Use X_test_raw.txt to test the API endpoint /predict.
