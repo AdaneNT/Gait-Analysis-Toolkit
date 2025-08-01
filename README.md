@@ -1,6 +1,6 @@
 
 # Gait Analysis Toolkit
-A machine learning-based gait analysis system using wearable inertial sensor data to recognize common human activities of daily living (ADLs), such as:
+Applications include remote monitoring of Parkinson’s disease, stroke rehabilitation, and activity tracking in healthcare and smart environments. A machine learning-based gait analysis system using wearable inertial sensors to recognize common human activities of daily living (ADLs), such as:
 - 🚶 Walking
 - 🏃 Jogging
 - 🧍 Standing
