@@ -41,6 +41,7 @@ http://localhost:8088/apidocs
 ## Option 2: Build and Run Locally
 ## Clone the repository
 git clone [https://github.com/adanent/Gait-Analysis-Toolkit](https://github.com/AdaneNT/Gait-Analysis-Toolkit)-.git
+
 cd Gait-Analysis-Toolkit-
 
 ## Build Docker image
