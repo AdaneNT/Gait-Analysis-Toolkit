@@ -39,9 +39,9 @@ docker run -p 8088:8080 adanentnu/gait_module
 http://localhost:8088/apidocs
 ```
 ## Option 2: Build and Run Locally
-# Clone the repository
-git clone https://github.com/yourusername/Machine-learning-and-Gait-Analysis-.git
-cd Machine-learning-and-Gait-Analysis-
+## Clone the repository
+git clone https://github.com/adanent/Gait-Analysis-Toolkit-.git
+cd Gait-Analysis-Toolkit-
 
 # Build Docker image
 docker build -t gait_module .
