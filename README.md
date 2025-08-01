@@ -54,6 +54,7 @@ docker run -p 8082:8080 gait_module
 http://localhost:8082/apidocs
 
 ## Project Structure
+```text
 .
 ├── classifier_rf.pkl         # Pre-trained Random Forest classifier
 ├── gait_api.py               # Flask server with REST endpoints
@@ -62,7 +63,7 @@ http://localhost:8082/apidocs
 ├── X_test_raw.txt            # Example test input
 ├── README.md                 # Project documentation
 └── google*.html              # Domain verification (if applicable)
-
+```
 ## Demo
 Visit the live Swagger UI on your local host:
 http://localhost:8088/apidocs
