@@ -59,9 +59,6 @@ docker build -t gait_module .
 ## Run container
 docker run -p 8082:8080 gait_module
 
-## Access Swagger UI
-http://localhost:8082/apidocs
-
 ## Demo
 Visit the live Swagger UI on your local host:
 http://localhost:8088/apidocs
