@@ -31,10 +31,8 @@ This project demonstrates the real-world deployment of an ML model via a RESTful
 ├── requirements.txt          # Dependencies
 ├── Dockerfile                # Docker image setup
 ├── X_test_raw.txt            # Example test input
-├── README.md                 # Project documentation
-└── google*.html              # Domain verification (if applicable)
+└── README.md                 # Project documentation           
 ```
-
 ## Installation Instructions
 The GA toolkit has been packaged in a Dockerized container. The toolkit’s image can be tested and run on a local machine:
 ### Option 1: Run Docker Image from Docker Hub
