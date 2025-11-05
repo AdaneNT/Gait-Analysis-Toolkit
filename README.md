@@ -8,7 +8,7 @@ Applications include remote monitoring of Parkinson’s disease, stroke rehabili
 - ⬆️ Going Upstairs
 - ⬇️ Going Downstairs
 
-This project demonstrates the real-world deployment of an ML model via a RESTful API built with Flask, served through Docker, and documented using Swagger UI.
+This project demonstrates the real-world deployment of an ML model via a RESTful API built with Flask, served through Docker, and documented using Swagger UI. More descriptions about the toolkit can be accessed from the [project website here](https://alameda.catalink.eu/ga_ntnu.html). 
 
 ---
 
